@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding = "UTF-8" standalone = "yes"?>
+<?xml-stylesheet type = "text/xsl" href = "pets.xsl"?>
+
+<!DOCTYPE petshop [
+        <!ELEMENT  petshop (pet)>
+        <!ELEMENT  pet (id, name, age, race, temperament, category, gender, birthDate,
+        length, price, pedigri, height, details, pictureURL)>
+        <!ELEMENT  id (#PCDATA)>
+        <!ELEMENT  name (#PCDATA)>
+        <!ELEMENT  age (#PCDATA)>
+        <!ELEMENT  race (#PCDATA)>
+        <!ELEMENT  type	(#PCDATA)>
+        <!ELEMENT  temperament (type*)>
+        <!ELEMENT  category (#PCDATA)>
+        <!ELEMENT  gender (#PCDATA)>
+        <!ELEMENT  birthDate (#PCDATA)>
+        <!ELEMENT  length (#PCDATA)>
+        <!ELEMENT  price (#PCDATA)>
+        <!ELEMENT  pedigri (#PCDATA)>
+        <!ELEMENT  height (#PCDATA)>
+        <!ELEMENT  details (#PCDATA)>
+        <!ELEMENT  pictureURL (#PCDATA)>
+        ]>
+
+<petshop>
+    <pet>
+        <id>a</id>
+        <name>a</name>
+        <age>a</age>
+        <race>a</race>
+        <temperament>
+            <type>a</type>
+            <type>a</type>
+        </temperament>
+        <category>a</category>
+        <gender>a</gender>
+        <birthDate>a</birthDate>
+        <length>a</length>
+        <price>a</price>
+        <pedigri>a</pedigri>
+        <height>a</height>
+        <details>a</details>
+        <pictureURL>a</pictureURL>
+    </pet>
+</petshop>
