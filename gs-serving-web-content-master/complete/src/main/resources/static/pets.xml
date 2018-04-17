@@ -24,22 +24,22 @@
 
 <petshop>
     <pet>
-        <id>a</id>
-        <name>a</name>
-        <age>a</age>
-        <race>a</race>
+        <id>1</id>
+        <name>Tonny</name>
+        <age>2</age>
+        <race>Beagle</race>
         <temperament>
-            <type>a</type>
-            <type>a</type>
+            <type>Nicenicenicenicenicencine</type>
+            <type>Welcoming</type>
         </temperament>
-        <category>a</category>
-        <gender>a</gender>
-        <birthDate>a</birthDate>
-        <length>a</length>
-        <price>a</price>
-        <pedigri>a</pedigri>
-        <height>a</height>
-        <details>a</details>
-        <pictureURL>a</pictureURL>
+        <category>Dog</category>
+        <gender>Male</gender>
+        <birthDate>12/12/2016</birthDate>
+        <length>60</length>
+        <price>120</price>
+        <pedigri>Yes</pedigri>
+        <height>40</height>
+        <details>Is really nice</details>
+        <pictureURL>www.google.com</pictureURL>
     </pet>
 </petshop>
